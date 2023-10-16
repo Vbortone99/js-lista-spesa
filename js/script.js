@@ -1,9 +1,9 @@
 let list = [];
 let item ='';
 
-while(item !== 'stop' && item !== '') {
+while(item !== 'stop'){
    item = prompt('aggiungi alla lista');
-   if(item !== 'stop'){
+   if(item !== 'stop' && item !==  ''){
        list.push(item);
    }
 };
